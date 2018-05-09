@@ -1,0 +1,25 @@
+/* CONFIGURANDO REGRAS GERAIS DA PÁGINA */
+*, *:before, *:after {
+    padding: 0px;
+    margin: 0px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ITENS MENU */
+.menu {
+    flex-direction: row;
+    width: 100%;
+    padding: 3% 4%;
+}
+
+.navegacao li{
+    list-style: none;
+    display: inline-block;
+    padding: 2%;
+    font-size: 1.05em;
+}
+
+.navegacao li a{
+    text-decoration: none;
+}

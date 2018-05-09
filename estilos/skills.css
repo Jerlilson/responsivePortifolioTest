@@ -1,0 +1,176 @@
+/* CONFIGURANDO REGRAS GERAIS DA PÁGINA */
+*, *:before, *:after {
+    padding: 0px;
+    margin: 0px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ITENS MENU */
+.menu {
+    flex-direction: row;
+    width: 100%;
+    padding: 3% 4%;
+}
+
+.navegacao li{
+    list-style: none;
+    display: inline-block;
+    padding: 2%;
+    font-size: 1.05em;
+}
+
+.navegacao li a{
+    text-decoration: none;
+}
+
+/* CONTAINER SKILLS */
+.skills-list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+/* SKILLS */
+.behavioral-skills{
+    background-color: #ff6131;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title-set-skills {
+    background-color: #ff6131;
+    text-align: center;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+/* REGRAS DE ESTILO DE CADA SKILL */
+.title-skill{
+    text-align: center;
+    background-color: #ff6131;
+    color: #A43731;
+}
+
+.skill{
+    background-color: #ff6131;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-description{
+    background-color: #ff6131;
+    color: white;
+    font-size: 1.3em;
+    font-style: italic;
+    text-align: center;
+}
+
+.icon-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* settings temporárias, até adicionar a img */
+    /* object-fit: contain; */
+    background-color: #ff6131;
+
+}
+
+.icon-skill{
+    width: 70%;
+    background-color: #ff6131;
+    /* object-fit: contain; */
+}
+
+
+/* HABILIDADES TÉNCICAS REGRAS DE ESTILO */
+.technical-skills{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}
+
+.technical-skills .title-set-skills {
+    background-color: white;
+}
+
+/* conjuntos de skills */
+.technical-skills .skills{
+    background-color: white;
+}
+
+/* skill  */
+.technical-skills .skill{
+    background-color: white;
+}
+
+.technical-skills .icon-description {
+    background-color: white;
+}
+
+.technical-skills .icon-skill {
+    background-color: white;
+}
+
+/* descricao textual da skill */
+.technical-skills .title-skill{
+    background-color: white;
+}
+
+.technical-skills .skill-description {
+    background-color: white;
+    color: black;
+}
+
+/* FOOTER */
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+    background-color: #222222;
+}
+
+.copyright{
+    color: white;
+    background-color: #222222;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+.icons-footer{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.icon-footer {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-footer img {
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}

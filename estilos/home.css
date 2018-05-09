@@ -1,0 +1,183 @@
+*, *:before, *:after {
+    padding: 0px;
+    margin: 0px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    background-color:#f5f5f5;
+}
+
+.container {
+    flex-direction: column;
+}
+
+/* CABEÇALHO */
+.menu {
+    flex-direction: row;
+    width: 100%;
+    padding: 3% 4%;
+}
+
+.navegacao li{
+    list-style: none;
+    display: inline-block;
+    padding: 2%;
+    font-size: 1.05em;
+}
+
+.navegacao li a{
+    text-decoration: none;
+}
+
+.cabecalho {
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho .img-photo {
+    display: flex;
+    flex: 1;
+    width: 70%;
+    object-fit: contain;
+    margin-top: 5%;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 5%;   
+}
+
+.apresentacao h3{
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+
+.apresentacao h1 {
+    margin-top: 3%;
+    font-size: 2em;
+    text-align: center;
+    line-height: 0.9;
+}
+
+.citacao-inicial{
+    font-size: 1.4em;
+    text-align: center;
+    text-transform: inherit;
+    font-style: italic;
+    padding-top: 4%;
+}
+
+/* RESUME */
+.resumes{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.resume{
+    display: flex;
+    font-size: 1.3em;
+    flex-direction: column;
+    background-color: #222222;
+    padding: 5%;
+    align-items: center;
+}
+
+.icon-resume {
+    background-color: slategrey;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.8em;
+}
+
+.resume p{
+    background-color: transparent;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* FEITOS */
+.feitos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 6%;
+    margin-top: 5%;
+}
+
+.feito{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feito .title-feito{
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 0.9;
+}
+
+.feitos p{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* FOOTER */
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+    background-color: #222222;
+}
+
+.copyright{
+    color: white;
+    background-color: #222222;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+.icons-footer{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.icon-footer {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-footer img {
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+
+/* MEDIA QUERY ALTURA  LANDSCAPE*/
+@media (orientation: LANDSCAPE){
+    .cabecalho{
+        height: 750px;
+    }
+}
